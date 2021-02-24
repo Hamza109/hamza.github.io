@@ -1,0 +1,112 @@
+#what .items{
+    display: block;
+    padding: 1rem;
+}
+
+
+#what .items .item{
+    display: flex;
+    text-align: left;
+}
+
+/* position icon */
+
+#what .items .item i{
+
+margin-right: 1.3rem;
+align-self: center;
+margin-bottom: 0;
+}
+
+
+#contact-info .items{
+    display: block;
+    padding: 1rem;
+}
+
+
+#contact-info .items .box{
+    display: flex;
+    flex-direction: column;
+}
+
+/* position icon */
+
+#contact-info .items .box i{
+
+margin-right: 1.3rem;
+align-self: center;
+margin-bottom: 0;
+}
+
+
+#projects .items{
+    display: block;
+    padding: 1rem;
+}
+
+
+#projects .items .item{
+    display: flex;
+    text-align: left;
+}
+
+
+/* position icon */
+
+#projects .items .item i{
+
+margin-right: 1.3rem;
+align-self: center;
+margin-bottom: 0;
+}
+
+#follow .items{
+    display: block;
+    padding: 1rem;
+}
+
+
+#follow .items .item{
+    display: flex;
+    text-align: left;
+}
+
+
+/* position icon */
+
+#follow .items .item i{
+
+margin-right: 1.3rem;
+align-self: center;
+margin-bottom: 0;
+}
+
+
+
+@media(max-width:600px)
+{
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar .logo{
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+#navbar ul{
+    padding: 0.5rem;
+}
+#showcase .show-content{
+    top: 110px;
+    margin-top: -2rem;
+}
+
+#who{
+    display: block;
+}
+#who .who-img{
+    display: none;
+}
+
+}
