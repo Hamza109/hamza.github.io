@@ -48,12 +48,18 @@ p{
 .bg-primary{
     background: red;
     color: #f4f4f4;
+
 }
 .l-heading{
     font-size: 4em;
     margin-bottom: 0.75rem;
     line-height: 1.1;
+    
 }
+
+
+}
+
 
 .m-heading{
     font-size: 2rem;
@@ -89,7 +95,6 @@ p{
     font-size: 1.3rem;
     margin-bottom: 2rem;
 }
-
 .btn
 {
     display: inline-block;
@@ -152,8 +157,20 @@ color: #fff;
     /* showcase */
 #showcase{
     background: #333 url("../img/img2.jpg") no-repeat center center/cover;
+   animation-name: show ;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+   animation-delay: 4s;
     height: 100vh;
     color: #fff;
+    }
+    @keyframes show{
+        50%{
+            background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
+        }
+        100%{
+            background: #333 url("../img/img1.jpg") no-repeat center center/cover;
+        }
     }
 
     #showcase .show-content{
