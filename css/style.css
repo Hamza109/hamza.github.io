@@ -58,7 +58,7 @@ p{
 }
 
 
-}
+
 
 
 .m-heading{
@@ -197,6 +197,7 @@ color: #fff;
 {
     display: flex;
     padding: 1rem;
+    margin-bottom: 15px;
 }
 
 #what .items .item{
